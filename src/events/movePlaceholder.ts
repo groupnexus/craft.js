@@ -18,7 +18,7 @@ export default function movePlaceholder(
     if (!elDim.inFlow) {
       w = 2;
       h = elDim.outerHeight;
-      t = elDim.top;
+      t = 130;
       l = where === 'before' ? elDim.left : elDim.left + elDim.outerWidth;
     } else {
       w = elDim.outerWidth;
